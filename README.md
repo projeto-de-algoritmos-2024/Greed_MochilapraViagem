@@ -69,4 +69,4 @@ python3 main.py
 
 ## Link do Vídeo
 
-[Clique Aqui!](link)
+[Clique Aqui!](https://youtu.be/k1_0dg820ks)
