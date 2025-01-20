@@ -21,23 +21,17 @@ O objetivo é maximizar o valor total dos itens escolhidos sem exceder o peso m�
 
 
 ## Screenshots
-
-### Problema 4
-![imagem2](assets/XXXXX.png)
-### Problema 23
-![imagem2](assets/XXXXX.png)
-### Problema 53
-![imagem2](assets/XXXXX.png)
-### Problema 218
-![imagem4](assets/XXXXX.png)
+![imagem2](assets/print1.png)
+![imagem2](assets/print2.png)
+![imagem2](assets/print3.png)
+![imagem4](assets/print4.png)
 
 
 
 
 ## Instalação 
 
-**Linguagem**: Python<br>
-**Framework**: XXXXXXX<br>
+**Linguagem**: Python3<br>
 
 #### 1. Crie o ambiente virtual:
 ```bash
@@ -45,30 +39,30 @@ python3 -m venv venv
 ```
 
 #### 2. Ative o ambiente virtual:
-- No Linux/MacOS:
+##### No Linux/MacOS:
 ```bash
 source venv/bin/activate
 ```
-- No Windows:
+##### No Windows:
 ```bash
 venv\Scripts\activate
 ```
-
 #### 3. Com o ambiente virtual ativo, instale as dependências:
 ```bash
 pip install -r requirements.txt
 ```
+
 #### 4. No diretório src execute o programa:
 ```bash
 python3 main.py
 ```
 
-
-
 ## Uso 
 
-#### 1. XXXXXXXXXXXXXX;
-#### 2. XXXXXXXXXXXXXX;
+#### 1. Adicione, no primeiro campo, o peso máximo da mochila;
+#### 2. Adicione as informações do item (nome, peso e valor) nos campos consecultivos;
+#### 3. Clique em "Adicionar Item" para adicionar o item preenchido;
+#### 4. Quando estiver satisfeito de adicionar os itens, clique em "Calcular Mochila" para ver o Knapsack sendo executado.
 
 
 
