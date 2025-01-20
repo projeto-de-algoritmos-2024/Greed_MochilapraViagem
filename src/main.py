@@ -1,7 +1,9 @@
+from PyQt6.QtWidgets import QApplication
 from gui import PlanejadorMochila
-import tkinter as tk
+import sys
 
 if __name__ == "__main__":
-    root = tk.Tk()
-    app = PlanejadorMochila(root)
-    root.mainloop()
+    app = QApplication(sys.argv)
+    window = PlanejadorMochila()
+    window.show()
+    sys.exit(app.exec())
